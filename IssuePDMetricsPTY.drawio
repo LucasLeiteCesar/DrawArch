@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T15:05:47.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="UyDEPfMeIrXUo1uPSvAV" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-03T15:11:20.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="LTEPCPX_HJQg2a4kB-N5" version="22.0.8" type="github" pages="2">
   <diagram name="Problem" id="IflsKXu6CVux13bQ5xvf">
     <mxGraphModel dx="2200" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -351,6 +351,9 @@
           <mxGeometry x="-0.307" y="-1" relative="1" as="geometry">
             <mxPoint x="35" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sCDIGbDzCMxYYQaDUXpG-1" value="&lt;h1&gt;Solution 1&lt;br&gt;&lt;/h1&gt;Advanced Support will check the alert in case the incident or downtime, change the alert to new incident line and this line update the statuspage" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="60" width="190" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
