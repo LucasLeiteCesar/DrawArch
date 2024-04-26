@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T00:27:47.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" version="24.3.0" etag="LAQGRLs8vvPcE5zit_fp" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T00:32:04.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="xwR2pB1iIcKsAHORlLFz" version="24.3.0" type="github">
   <diagram name="Página-1" id="yDubu6qxKt_e2WaJ1Wzc">
-    <mxGraphModel>
+    <mxGraphModel dx="1406" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="77Q_cmuyWrkjRSAyKT8y-1" target="77Q_cmuyWrkjRSAyKT8y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.gocache.com.br/wp-content/uploads/2021/09/datadog-o-que-e.png;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="170" height="88.92" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="77Q_cmuyWrkjRSAyKT8y-2" target="77Q_cmuyWrkjRSAyKT8y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="77Q_cmuyWrkjRSAyKT8y-2" target="77Q_cmuyWrkjRSAyKT8y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="77Q_cmuyWrkjRSAyKT8y-2" target="77Q_cmuyWrkjRSAyKT8y-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.australtech.net/wp-content/uploads/2019/04/docker_facebook_share.png;" vertex="1" parent="1">
+          <mxGeometry x="360" y="302.1" width="146" height="124.71" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-6" value="Virtual Machine 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="150" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="77Q_cmuyWrkjRSAyKT8y-6">
+          <mxGeometry x="90" y="40" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-9" value="5566" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77Q_cmuyWrkjRSAyKT8y-6">
+          <mxGeometry x="20" y="56.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-10" value="5567" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77Q_cmuyWrkjRSAyKT8y-6">
+          <mxGeometry x="20" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-7" value="Virtual Machine 2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="385" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="77Q_cmuyWrkjRSAyKT8y-7">
+          <mxGeometry x="80" y="75" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-11" value="5566" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77Q_cmuyWrkjRSAyKT8y-7">
+          <mxGeometry x="20" y="91.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="77Q_cmuyWrkjRSAyKT8y-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Observability&lt;/h1&gt;&lt;p&gt;Monitoring the heath check on PayPower Application&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
