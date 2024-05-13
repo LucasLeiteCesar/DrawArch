@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T15:40:15.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="zWgT44GmPeRwOScIBBH-" version="24.3.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-13T16:59:55.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="7-9ucZbsOqbt2RkCVw_C" version="24.3.1" type="github" pages="3">
   <diagram name="Página-1" id="yDubu6qxKt_e2WaJ1Wzc">
     <mxGraphModel dx="1420" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
           <mxGeometry x="72" y="53.54" width="77.56" height="74.46" as="geometry" />
         </mxCell>
         <mxCell id="WaavnQETRbF7cJld9xq0-5" value="Virtual Machine 2" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="754" y="520" width="200" height="200" as="geometry" />
+          <mxGeometry x="754" y="620" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="WaavnQETRbF7cJld9xq0-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" parent="WaavnQETRbF7cJld9xq0-5" vertex="1">
           <mxGeometry x="80" y="75" width="60" height="63" as="geometry" />
@@ -138,7 +138,7 @@
           <mxGeometry x="80" y="155.55" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WaavnQETRbF7cJld9xq0-9" value="Dedicated Client Machine 1" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1104" y="264.46" width="200" height="200" as="geometry" />
+          <mxGeometry x="1250" y="264.45" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="WaavnQETRbF7cJld9xq0-10" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" parent="WaavnQETRbF7cJld9xq0-9" vertex="1">
           <mxGeometry x="80" y="75" width="60" height="63" as="geometry" />
@@ -149,8 +149,8 @@
         <mxCell id="yCrNz0Nwn888qPj6RsdR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vGrDHg2LwM2_GgmLCUEK-3" target="WaavnQETRbF7cJld9xq0-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yCrNz0Nwn888qPj6RsdR-4" value="0100 Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="320" width="90" height="30" as="geometry" />
+        <mxCell id="yCrNz0Nwn888qPj6RsdR-4" value="Tokenization" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="840" y="510" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yCrNz0Nwn888qPj6RsdR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.021;entryY=0.809;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vGrDHg2LwM2_GgmLCUEK-3">
           <mxGeometry relative="1" as="geometry">
@@ -159,6 +159,12 @@
         </mxCell>
         <mxCell id="yCrNz0Nwn888qPj6RsdR-6" value="0110 Response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="370" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCrNz0Nwn888qPj6RsdR-7" value="0100 Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCrNz0Nwn888qPj6RsdR-8" value="0100 Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="330" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
