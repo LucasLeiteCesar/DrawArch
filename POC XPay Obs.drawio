@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.6">
+  <diagram name="Trace Propagation via Headers" id="dvJLuWFmQP1J0lsjESyU">
+    <mxGraphModel dx="1265" dy="1902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Frontend" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CloudFront" vertex="1">
+          <mxGeometry height="40" width="100" x="350" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-3" edge="1" parent="1" source="gT1zYSDLqnwfKaSdqmc9-2" style="endArrow=none;dashed=1;html=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="295" as="sourcePoint" />
+            <mxPoint x="400" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ALB" vertex="1">
+          <mxGeometry height="40" width="100" x="530" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-5" edge="1" parent="1" source="gT1zYSDLqnwfKaSdqmc9-4" style="endArrow=none;dashed=1;html=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="295" as="sourcePoint" />
+            <mxPoint x="580" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Gateway" vertex="1">
+          <mxGeometry height="40" width="100" x="700" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-7" edge="1" parent="1" source="gT1zYSDLqnwfKaSdqmc9-6" style="endArrow=none;dashed=1;html=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="295" as="sourcePoint" />
+            <mxPoint x="750" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend&#xa;(OTel)" vertex="1">
+          <mxGeometry height="40" width="100" x="890" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-9" edge="1" parent="1" source="gT1zYSDLqnwfKaSdqmc9-8" style="endArrow=none;dashed=1;html=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="940" y="295" as="sourcePoint" />
+            <mxPoint x="940" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Datadog" vertex="1">
+          <mxGeometry height="40" width="100" x="1141" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-11" edge="1" parent="1" source="gT1zYSDLqnwfKaSdqmc9-10" style="endArrow=none;dashed=1;html=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1191" y="290" as="sourcePoint" />
+            <mxPoint x="1191" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-12" edge="1" parent="1" source="gT1zYSDLqnwfKaSdqmc9-1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=0.767;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="1. Request + Generate&#xa;X-Trace-ID: abc123">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="305" y="355" as="sourcePoint" />
+            <mxPoint x="440" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="395" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;dashed=1;" value="2. CF Function:&#xa;Preserve Header">
+          <mxGeometry relative="1" width="80" x="-0.1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="440" y="355" />
+            </Array>
+            <mxPoint x="405" y="375" as="sourcePoint" />
+            <mxPoint x="450" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-15" edge="1" parent="1" source="gT1zYSDLqnwfKaSdqmc9-13" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="3. Forward Request&#xa;X-Trace-ID: abc123">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="445" y="415" as="sourcePoint" />
+            <mxPoint x="580" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="575" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;dashed=1;" value="4. ALB Routing&#xa;(Header Passthrough)">
+          <mxGeometry relative="1" width="80" x="0.2864" y="40" as="geometry">
+            <mxPoint x="-16" y="-17" as="offset" />
+            <Array as="points">
+              <mxPoint x="620" y="415" />
+            </Array>
+            <mxPoint x="585" y="435" as="sourcePoint" />
+            <mxPoint x="630" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="gT1zYSDLqnwfKaSdqmc9-19" value="5. Route to Target&#xa;X-Trace-ID: abc123">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="585" y="475" as="sourcePoint" />
+            <mxPoint x="720" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="745" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;dashed=1;" value="6. Integration Request&#xa;(Header Mapping)">
+          <mxGeometry relative="1" width="80" x="-0.1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="790" y="475" />
+            </Array>
+            <mxPoint x="755" y="495" as="sourcePoint" />
+            <mxPoint x="800" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;" value="7. Backend Request&#xa;X-Trace-ID: abc123">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="755" y="535" as="sourcePoint" />
+            <mxPoint x="930" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="935" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;dashed=1;" value="8. Extract Context&#xa;OTel Propagator">
+          <mxGeometry relative="1" width="80" x="0.2864" y="63" as="geometry">
+            <mxPoint x="-26" y="-27" as="offset" />
+            <Array as="points">
+              <mxPoint x="980" y="535" />
+            </Array>
+            <mxPoint x="945" y="555" as="sourcePoint" />
+            <mxPoint x="990" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;dashed=1;" value="9. Create Span&#xa;TraceID: abc123&#xa;SpanID: xyz789">
+          <mxGeometry relative="1" width="80" x="0.2864" y="54" as="geometry">
+            <mxPoint x="-18" y="-21" as="offset" />
+            <Array as="points">
+              <mxPoint x="980" y="575" />
+            </Array>
+            <mxPoint x="945" y="595" as="sourcePoint" />
+            <mxPoint x="990" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;dashed=1;" value="10. Process Request">
+          <mxGeometry relative="1" width="80" x="-0.1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="980" y="615" />
+            </Array>
+            <mxPoint x="945" y="635" as="sourcePoint" />
+            <mxPoint x="990" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;" value="11. Export Spans">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="950" y="714" as="sourcePoint" />
+            <mxPoint x="1180" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="1186" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=1;dashed=1;" value="12. Correlate E2E Trace&#xa;by X-Trace-ID">
+          <mxGeometry relative="1" width="80" x="-0.1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1231" y="700" />
+            </Array>
+            <mxPoint x="1196" y="720" as="sourcePoint" />
+            <mxPoint x="1241" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-29" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" value="✅ Simple header propagation&#xa;✅ Works with ALL AWS services&#xa;✅ Real-time correlation&#xa;✅ No log parsing needed" vertex="1">
+          <mxGeometry height="100" width="200" x="100" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="gT1zYSDLqnwfKaSdqmc9-30" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="❌ No individual AWS spans&#xa;BUT&#xa;✅ Complete E2E correlation&#xa;✅ Low maintenance&#xa;✅ Industry standard" vertex="1">
+          <mxGeometry height="100" width="200" x="100" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
