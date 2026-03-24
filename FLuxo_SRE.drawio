@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.6">
   <diagram name="Página-1" id="ck319m2U8Gkop91gkDIO">
-    <mxGraphModel>
+    <mxGraphModel dx="2734" dy="1344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Tutuka" vertex="1">
+          <mxGeometry height="440" width="640" x="50" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-10" edge="1" parent="k8pYUJncCPZlI-3F5AP0-1" source="k8pYUJncCPZlI-3F5AP0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-4" parent="k8pYUJncCPZlI-3F5AP0-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Canal Support" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-5" parent="k8pYUJncCPZlI-3F5AP0-1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Escopo de trabalho&lt;/h1&gt;&lt;p&gt;Analisa itens de Infra estrutura para verificar se aplicação esta adequado com os requisitos minitos&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Ajusta itens de logs e pipeline de entrega junto comd evops&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Tem uma visao de negocios mediana sem regra de negocio igual o time de Suporte Possui&lt;/p&gt;" vertex="1">
+          <mxGeometry height="270" width="310" x="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-11" edge="1" parent="k8pYUJncCPZlI-3F5AP0-1" source="k8pYUJncCPZlI-3F5AP0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-6" parent="k8pYUJncCPZlI-3F5AP0-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Analise da Task" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-7" parent="k8pYUJncCPZlI-3F5AP0-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Resolução no canal ou delega para demais times" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-8" edge="1" parent="1" source="k8pYUJncCPZlI-3F5AP0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Projetos" vertex="1">
+          <mxGeometry height="60" width="30" x="-100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-9" edge="1" parent="1" source="k8pYUJncCPZlI-3F5AP0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Suporte" vertex="1">
+          <mxGeometry height="60" width="30" x="-100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Ifood" vertex="1">
+          <mxGeometry height="440" width="640" x="40" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-14" edge="1" parent="k8pYUJncCPZlI-3F5AP0-13" source="k8pYUJncCPZlI-3F5AP0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-15" parent="k8pYUJncCPZlI-3F5AP0-13" style="rounded=0;whiteSpace=wrap;html=1;" value="Canal Support" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-16" parent="k8pYUJncCPZlI-3F5AP0-13" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Escopo de trabalho&lt;/h1&gt;&lt;div&gt;Responsavel pelo Gateway coorporativo (Kong)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Auxilia na criação de regras de firewall externas&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Analisa problemas de Infra Estrutura dentro dos Cluster do K8S&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Suporte para Infra As Code (Terra Form do time de Dev)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Auxilia o time de Observabilidade na criação de libs a serem integradas no cluster e nas aplicações&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Auxilia no troubleshooting de incidentes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="310" x="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-17" edge="1" parent="k8pYUJncCPZlI-3F5AP0-13" source="k8pYUJncCPZlI-3F5AP0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-18" parent="k8pYUJncCPZlI-3F5AP0-13" style="rounded=0;whiteSpace=wrap;html=1;" value="Analise da Task" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-19" parent="k8pYUJncCPZlI-3F5AP0-13" style="rounded=0;whiteSpace=wrap;html=1;" value="Resolução no canal ou delega para demais times" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-27" edge="1" parent="k8pYUJncCPZlI-3F5AP0-13" source="k8pYUJncCPZlI-3F5AP0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-25" parent="k8pYUJncCPZlI-3F5AP0-13" style="rounded=0;whiteSpace=wrap;html=1;" value="On Call 24x7" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-22" edge="1" parent="1" source="k8pYUJncCPZlI-3F5AP0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Time Dev&amp;nbsp; Ifood" vertex="1">
+          <mxGeometry height="60" width="30" x="-120" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-23" edge="1" parent="1" source="k8pYUJncCPZlI-3F5AP0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Observabilidade" vertex="1">
+          <mxGeometry height="60" width="30" x="-120" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-26" edge="1" parent="1" source="k8pYUJncCPZlI-3F5AP0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="k8pYUJncCPZlI-3F5AP0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8pYUJncCPZlI-3F5AP0-24" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Incident Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="730" y="1000" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
