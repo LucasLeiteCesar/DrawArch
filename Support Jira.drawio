@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0" version="29.6.6">
+  <diagram name="Página-1" id="8wXart5hPvGNG2jCImBd">
+    <mxGraphModel dx="1230" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;fontSize=13;shadow=1;rounded=1;" value="&lt;b&gt;Case / Problem&lt;br&gt;on Jira Ops Tool&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="400" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1BA1E2;fontColor=#ffffff;strokeColor=#006EAF;fontSize=12;shadow=1;arcSize=30;" value="&lt;b&gt;1.&lt;/b&gt; Monitoring Team&lt;br&gt;performs Troubleshooting" vertex="1">
+          <mxGeometry height="70" width="230" x="385" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;shadow=1;" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6A020;fontColor=#000000;strokeColor=#C68600;fontSize=11;shadow=1;rounded=1;" value="&lt;b&gt;2.&lt;/b&gt; Need adjustment on&lt;br&gt;&lt;b&gt;Terraform Code&lt;/b&gt; integration&lt;br&gt;between Jira &amp; Datadog?" vertex="1">
+          <mxGeometry height="140" width="270" x="365" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;shadow=1;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60A917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=12;shadow=1;arcSize=30;" value="&lt;b&gt;3.&lt;/b&gt; Create a Jira Ticket&lt;br&gt;to &lt;b&gt;Tooling Team&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="700" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#60A917;strokeWidth=2;shadow=1;fontColor=#60A917;fontSize=11;fontStyle=1;" target="7" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#6C6C6C;fontColor=#ffffff;strokeColor=#4D4D4D;fontSize=12;shadow=1;" value="&lt;b&gt;End&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="745" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;shadow=1;" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6A020;fontColor=#000000;strokeColor=#C68600;fontSize=11;shadow=1;rounded=1;" value="&lt;b&gt;3.&lt;/b&gt; Problem on&lt;br&gt;&lt;b&gt;Jira Tooling&lt;/b&gt;?" vertex="1">
+          <mxGeometry height="120" width="200" x="120" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d80073;strokeWidth=2;shadow=1;fontColor=#d80073;fontSize=11;fontStyle=1;" target="11" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60A917;fontColor=#ffffff;strokeColor=#2D7600;fontSize=12;shadow=1;arcSize=30;" value="&lt;b&gt;4.&lt;/b&gt; Create a Ticket&lt;br&gt;to &lt;b&gt;Sourcesense&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="60" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#60A917;strokeWidth=2;shadow=1;fontColor=#60A917;fontSize=11;fontStyle=1;" target="13" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#6C6C6C;fontColor=#ffffff;strokeColor=#4D4D4D;fontSize=12;shadow=1;" value="&lt;b&gt;End&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="105" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;shadow=1;" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=12;shadow=1;arcSize=30;" value="&lt;b&gt;Escalate / &lt;br&gt;Further Investigation&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="120" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d80073;strokeWidth=2;shadow=1;fontColor=#d80073;fontSize=11;fontStyle=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="17" value="NO">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="370" />
+              <mxPoint x="80" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1;fontColor=#333333;" value="Jira Ops Incident Workflow" vertex="1">
+          <mxGeometry height="40" width="300" x="350" y="-20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
