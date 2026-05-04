@@ -1,0 +1,180 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Página-1" id="knV4Ca10hXrjW60JSWxA">
+    <mxGraphModel dx="1253" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wssCtYGf5bQFSaOl_MKS-14" edge="1" parent="1" source="wssCtYGf5bQFSaOl_MKS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="wssCtYGf5bQFSaOl_MKS-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="250" />
+              <mxPoint x="1030" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wssCtYGf5bQFSaOl_MKS-15" connectable="0" parent="wssCtYGf5bQFSaOl_MKS-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Process the result on Thread Channel" vertex="1">
+          <mxGeometry relative="1" x="-0.0873" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wssCtYGf5bQFSaOl_MKS-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Github Copilot" vertex="1">
+          <mxGeometry height="200" width="200" x="660" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="wssCtYGf5bQFSaOl_MKS-2" parent="wssCtYGf5bQFSaOl_MKS-1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Phosphor_Regular_Vol_4-2948/robot-1474.svg" value="" vertex="1">
+          <mxGeometry height="106" width="106" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wssCtYGf5bQFSaOl_MKS-9" edge="1" parent="1" source="wssCtYGf5bQFSaOl_MKS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wssCtYGf5bQFSaOl_MKS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wssCtYGf5bQFSaOl_MKS-10" connectable="0" parent="wssCtYGf5bQFSaOl_MKS-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Notify on Fraud Channel" vertex="1">
+          <mxGeometry relative="1" x="-0.4184" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;img src=&quot;https://avatars.githubusercontent.com/u/365230?s=280&amp;amp;v=4&quot; class=&quot;sFlh5c FyHeAf iPVvYb&quot; style=&quot;max-width: 280px; width: 280px; height: 280px; margin: 10.5px 0px;&quot; alt=&quot;Datadog, Inc. · GitHub&quot;&gt;" link="&lt;img src=&quot;https://avatars.githubusercontent.com/u/365230?s=280&amp;amp;v=4&quot; class=&quot;sFlh5c FyHeAf iPVvYb&quot; style=&quot;max-width: 280px; width: 280px; height: 280px; margin: 10.5px 0px;&quot; alt=&quot;Datadog, Inc. · GitHub&quot;&gt;" id="wssCtYGf5bQFSaOl_MKS-6">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="180" width="160" x="20" y="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wssCtYGf5bQFSaOl_MKS-13" edge="1" parent="1" source="wssCtYGf5bQFSaOl_MKS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="wssCtYGf5bQFSaOl_MKS-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="580" />
+              <mxPoint x="760" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;img src=&quot;https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/slack-logo-slide.png&quot; class=&quot;sFlh5c FyHeAf iPVvYb&quot; style=&quot;max-width: 3840px; width: 574px; height: 323px; margin: 0px;&quot; alt=&quot;Cinco dicas para começar a usar o Slack | Slack&quot;&gt;" link="&lt;img src=&quot;https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/slack-logo-slide.png&quot; class=&quot;sFlh5c FyHeAf iPVvYb&quot; style=&quot;max-width: 3840px; width: 574px; height: 323px; margin: 0px;&quot; alt=&quot;Cinco dicas para começar a usar o Slack | Slack&quot;&gt;" id="wssCtYGf5bQFSaOl_MKS-8">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="350" width="560" x="310" y="520" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZewSj4VkWXFp_q9RHZwD" name="Página-2">
+    <mxGraphModel dx="1253" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Client Browser" vertex="1">
+          <mxGeometry height="50" width="130" x="30" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="API Gateway" vertex="1">
+          <mxGeometry height="50" width="130" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Job Lambda&#xa;(Create Job +&#xa;Pre-signed URL)" vertex="1">
+          <mxGeometry height="70" width="150" x="410" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;fontStyle=1;" value="S3 Bucket&#xa;(Images)" vertex="1">
+          <mxGeometry height="50" width="120" x="450" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="DynamoDB&#xa;(Job + Image Status)" vertex="1">
+          <mxGeometry height="50" width="150" x="650" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="SQS Main Queue&#xa;(visibilityTimeout=900s)" vertex="1">
+          <mxGeometry height="50" width="160" x="850" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="Step Functions&#xa;(Pipeline Orchestrator)" vertex="1">
+          <mxGeometry height="50" width="160" x="1080" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Lambda: Step 1&#xa;Denoise" vertex="1">
+          <mxGeometry height="50" width="130" x="1420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Lambda: Step 2&#xa;Sharpen" vertex="1">
+          <mxGeometry height="50" width="130" x="1440" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Lambda: Step 3&#xa;Color Grade" vertex="1">
+          <mxGeometry height="50" width="130" x="1430" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CloudFront CDN&#xa;(Fast Delivery)" vertex="1">
+          <mxGeometry height="50" width="130" x="1320" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="SQS Dead Letter Queue&#xa;(DLQ)" vertex="1">
+          <mxGeometry height="50" width="160" x="850" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="CloudWatch Alarm&#xa;(ApproxMsgsVisible &gt; 0)" vertex="1">
+          <mxGeometry height="50" width="160" x="850" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="SNS Topic&#xa;(Alert Fanout)" vertex="1">
+          <mxGeometry height="50" width="140" x="1080" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="SES / Slack&#xa;(Ops Alert)" vertex="1">
+          <mxGeometry height="50" width="140" x="1080" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Remediation Lambda&#xa;(Classify + Route)" vertex="1">
+          <mxGeometry height="50" width="150" x="1080" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="d6" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="DynamoDB&#xa;(Mark image: FAILED)" vertex="1">
+          <mxGeometry height="50" width="150" x="1300" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="d7" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="SQS Main Queue&#xa;(Re-enqueue if transient)" vertex="1">
+          <mxGeometry height="50" width="160" x="1300" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="c1" style="edgeStyle=orthogonalEdgeStyle;" target="c2" value="POST /jobs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="c2" style="edgeStyle=orthogonalEdgeStyle;" target="c3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="c3" style="edgeStyle=orthogonalEdgeStyle;" target="c4" value="Pre-signed PUT URL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3b" edge="1" parent="1" source="c3" style="edgeStyle=orthogonalEdgeStyle;" target="c5" value="Write Job metadata">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="c4" style="edgeStyle=orthogonalEdgeStyle;" target="c6" value="S3 Event → SQS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="c6" style="edgeStyle=orthogonalEdgeStyle;" target="c7" value="Poll + Trigger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="c7" style="edgeStyle=orthogonalEdgeStyle;" target="c8" value="Step 1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="c8" style="edgeStyle=orthogonalEdgeStyle;" target="c9" value="Step 2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="c9" style="edgeStyle=orthogonalEdgeStyle;" target="c10" value="Step 3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="c10" style="edgeStyle=orthogonalEdgeStyle;" target="c4" value="Write output to S3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="c4" style="edgeStyle=orthogonalEdgeStyle;" target="c11" value="Serve URL">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="70" />
+              <mxPoint x="1385" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="c6" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#b85450;" target="d1" value="After maxReceiveCount (3x fail)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;" target="d2" value="Monitor depth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;" target="d3" value="Trigger SNS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="d3" style="edgeStyle=orthogonalEdgeStyle;" target="d4" value="Alert Ops">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="d3" style="edgeStyle=orthogonalEdgeStyle;" target="d5" value="Invoke Lambda">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="d5" style="edgeStyle=orthogonalEdgeStyle;" target="d6" value="Permanent failure">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="d5" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#82b366;" target="d7" value="Transient error: retry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
