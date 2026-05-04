@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="2">
+<mxfile host="app.diagrams.net" pages="3">
   <diagram name="Página-1" id="knV4Ca10hXrjW60JSWxA">
     <mxGraphModel dx="1253" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,6 +172,165 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e17" edge="1" parent="1" source="d5" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#82b366;" target="d7" value="Transient error: retry">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NC1_1NkXB9ltbIMjM71G" name="Página-3">
+    <mxGraphModel dx="1253" dy="2735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontStyle=1;fontSize=11;" value="DEVELOPER SUBMISSION FLOW" vertex="1">
+          <mxGeometry height="30" width="300" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontStyle=1;fontSize=11;" value="MARKETPLACE REGISTRY" vertex="1">
+          <mxGeometry height="30" width="300" x="20" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontStyle=1;fontSize=11;" value="CUSTOMER USAGE FLOW" vertex="1">
+          <mxGeometry height="30" width="300" x="20" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lane4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontStyle=1;fontSize=11;" value="BILLING &amp; METERING" vertex="1">
+          <mxGeometry height="30" width="300" x="20" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Developer Portal&#xa;(React SPA)" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="API Gateway&#xa;(Developer API)" vertex="1">
+          <mxGeometry height="50" width="140" x="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" parent="1" style="rounded=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" value="ECR (Developer)&#xa;Push Container Image" vertex="1">
+          <mxGeometry height="50" width="150" x="460" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="CodePipeline&#xa;CI/CD Gate" vertex="1">
+          <mxGeometry height="50" width="140" x="670" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Security Scan&#xa;(Inspector + SAST)" vertex="1">
+          <mxGeometry height="50" width="140" x="670" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="d6" parent="1" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Manual Review&#xa;(1st submission only)" vertex="1">
+          <mxGeometry height="50" width="140" x="875" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d7" parent="1" style="rounded=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;fontStyle=1;" value="ECR (Aperture)&#xa;Promoted Image" vertex="1">
+          <mxGeometry height="50" width="150" x="1070" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Filter Registry&#xa;(DynamoDB)" vertex="1">
+          <mxGeometry height="50" width="140" x="1280" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="de1" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;" target="d2" value="Submit metadata&#xa;+ trigger push">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="de2" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;" target="d3" value="Push OCI image">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="de3" edge="1" parent="1" source="d3" style="edgeStyle=orthogonalEdgeStyle;" target="d4" value="Trigger pipeline">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="de4" edge="1" parent="1" source="d4" style="edgeStyle=orthogonalEdgeStyle;" target="d5" value="Run scans">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="de5" edge="1" parent="1" source="d4" style="edgeStyle=orthogonalEdgeStyle;" target="d6" value="Pass → gate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="de6" edge="1" parent="1" source="d6" style="edgeStyle=orthogonalEdgeStyle;" target="d7" value="Approve">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="de7" edge="1" parent="1" source="d7" style="edgeStyle=orthogonalEdgeStyle;" target="d8" value="Register version&#xa;status=ACTIVE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Filter Registry&#xa;(DynamoDB)" vertex="1">
+          <mxGeometry height="60" width="160" x="660" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Marketplace API&#xa;GET /filters&#xa;POST /purchase" vertex="1">
+          <mxGeometry height="60" width="150" x="340" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Purchase Table&#xa;(DynamoDB)" vertex="1">
+          <mxGeometry height="60" width="150" x="870" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="re1" edge="1" parent="1" source="r2" style="edgeStyle=orthogonalEdgeStyle;" target="r1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re2" edge="1" parent="1" source="r2" style="edgeStyle=orthogonalEdgeStyle;" target="r3" value="Record purchase">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re3" edge="1" parent="1" source="d8" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="r1" value="Write version">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Organization&#xa;(Customer)" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="u2" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="Step Functions&#xa;(Pipeline Orchestrator)" vertex="1">
+          <mxGeometry height="50" width="160" x="260" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="u3" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Filter Resolver Lambda&#xa;(lookup version + ECR URI)" vertex="1">
+          <mxGeometry height="50" width="170" x="480" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="u4" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Isolated Filter Runner&#xa;(ECS Fargate, no VPC peering)" vertex="1">
+          <mxGeometry height="50" width="180" x="760" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="u5" parent="1" style="rounded=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" value="S3 (Images)&#xa;pre-signed GET/PUT" vertex="1">
+          <mxGeometry height="50" width="180" x="760" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="u6" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="DynamoDB&#xa;(Update Image status)" vertex="1">
+          <mxGeometry height="50" width="150" x="1250" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="u7" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Usage Event&#xa;(DynamoDB / Kinesis)" vertex="1">
+          <mxGeometry height="50" width="150" x="1130" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="ue1" edge="1" parent="1" source="u1" style="edgeStyle=orthogonalEdgeStyle;" target="u2" value="Start pipeline">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue2" edge="1" parent="1" source="u2" style="edgeStyle=orthogonalEdgeStyle;" target="u3" value="Resolve filter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue3" edge="1" parent="1" source="u3" style="edgeStyle=orthogonalEdgeStyle;" target="u4" value="Invoke with&#xa;pre-signed URLs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue4" edge="1" parent="1" source="u4" style="edgeStyle=orthogonalEdgeStyle;" target="u5" value="Read input /&#xa;Write output">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5" edge="1" parent="1" source="u4" style="edgeStyle=orthogonalEdgeStyle;" target="u6" value="Update status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue6" edge="1" parent="1" source="u4" style="edgeStyle=orthogonalEdgeStyle;" target="u7" value="Emit usage event">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue7" edge="1" parent="1" source="u3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="r1" value="Lookup pinned version">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Usage Event Store&#xa;(DynamoDB / Kinesis)" vertex="1">
+          <mxGeometry height="50" width="160" x="260" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Billing Aggregator&#xa;(Lambda nightly)" vertex="1">
+          <mxGeometry height="50" width="150" x="480" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Billing Table&#xa;(DynamoDB)" vertex="1">
+          <mxGeometry height="50" width="140" x="690" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Stripe&#xa;(Customer Charge)" vertex="1">
+          <mxGeometry height="50" width="140" x="890" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Stripe Connect&#xa;(Developer Payout)" vertex="1">
+          <mxGeometry height="50" width="140" x="890" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="be1" edge="1" parent="1" source="u7" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" target="b1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be2" edge="1" parent="1" source="b1" style="edgeStyle=orthogonalEdgeStyle;" target="b2" value="Aggregate by org&#xa;+ filter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be3" edge="1" parent="1" source="b2" style="edgeStyle=orthogonalEdgeStyle;" target="b3" value="Write invoice data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be4" edge="1" parent="1" source="b3" style="edgeStyle=orthogonalEdgeStyle;" target="b4" value="Charge customer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be5" edge="1" parent="1" source="b3" style="edgeStyle=orthogonalEdgeStyle;" target="b5" value="Pay developer (70%)">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
