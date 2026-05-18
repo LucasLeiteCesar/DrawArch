@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Página-1" id="kQZ7AK67-AFcse6gFFWs">
+    <mxGraphModel dx="1253" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XLRvfi57XLAw3ba9Y0x5-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Slack" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XLRvfi57XLAw3ba9Y0x5-7" edge="1" parent="1" source="XLRvfi57XLAw3ba9Y0x5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XLRvfi57XLAw3ba9Y0x5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XLRvfi57XLAw3ba9Y0x5-4" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/App_Compliance_Automation.svg;" value="Slack AI Fraud Assitance" vertex="1">
+          <mxGeometry height="49.480000000000004" width="68" x="290" y="200.51999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="XLRvfi57XLAw3ba9Y0x5-10" edge="1" parent="1" source="XLRvfi57XLAw3ba9Y0x5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XLRvfi57XLAw3ba9Y0x5-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="548" y="147" />
+              <mxPoint x="140" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLRvfi57XLAw3ba9Y0x5-5" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Phosphor_Duotone_Vol_4-2933/robot-duotone-1373.svg" value="Github Copilot Agent" vertex="1">
+          <mxGeometry height="116" width="116" x="490" y="167.26" as="geometry" />
+        </mxCell>
+        <mxCell id="XLRvfi57XLAw3ba9Y0x5-6" edge="1" parent="1" source="XLRvfi57XLAw3ba9Y0x5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.032;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" target="XLRvfi57XLAw3ba9Y0x5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XLRvfi57XLAw3ba9Y0x5-9" edge="1" parent="1" source="XLRvfi57XLAw3ba9Y0x5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="XLRvfi57XLAw3ba9Y0x5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XLRvfi57XLAw3ba9Y0x5-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Datadog" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_3Cc2otlO8CV4eLAKbBD" name="Página-2">
+    <mxGraphModel dx="1253" dy="1902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
