@@ -49,6 +49,9 @@
         <mxCell id="bMcjvpNb2eIow1fPu8dr-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="New Feature" vertex="1">
           <mxGeometry height="370" width="490" x="800" y="640" as="geometry" />
         </mxCell>
+        <mxCell id="rfc0EVEnAQOhBEi-moA1-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Trade off&lt;/h1&gt;&lt;p&gt;Create a automation feature&lt;/p&gt;&lt;p&gt;We need to have control to Support not ingest many Mi logs and generate more costs&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="970" y="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -103,11 +106,14 @@
         <mxCell id="0KmTLD5PA4LOkMND8QVT-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Support Team" vertex="1">
           <mxGeometry height="220" width="130" x="1560" y="900" as="geometry" />
         </mxCell>
+        <mxCell id="tQjnSNdmCgToDwP6ABC4-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Trade off&lt;/h1&gt;&lt;p&gt;Create a automation feature&lt;/p&gt;&lt;p&gt;Advice to Support don&#39;t make unnecessary query to increase our costs in the Athena Query&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="2110" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="h2nvSH4EqCPD9Ew906wh" name="Improve DB Logs">
-    <mxGraphModel dx="2080" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2080" dy="2483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,6 +138,9 @@
           <mxGeometry relative="1" x="0.0695" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CVb4H9ZF05DXtXfLr1QQ-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Trade off&lt;/h1&gt;Review the database structure to use in the Metabase" vertex="1">
+          <mxGeometry height="120" width="180" x="640" y="-160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
