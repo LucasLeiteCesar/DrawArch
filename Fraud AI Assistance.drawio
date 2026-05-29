@@ -9,7 +9,7 @@
         </mxCell>
         <mxCell id="bTYN3gt1tnpH21ks8rRy-5" connectable="0" parent="bTYN3gt1tnpH21ks8rRy-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Collect Manifest" vertex="1">
           <mxGeometry relative="1" x="-0.1192" y="3" as="geometry">
-            <mxPoint x="22" y="-77" as="offset" />
+            <mxPoint x="33" y="-77" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bTYN3gt1tnpH21ks8rRy-6" edge="1" parent="1" source="bTYN3gt1tnpH21ks8rRy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="bTYN3gt1tnpH21ks8rRy-4">
@@ -22,7 +22,7 @@
         </mxCell>
         <mxCell id="bTYN3gt1tnpH21ks8rRy-7" connectable="0" parent="bTYN3gt1tnpH21ks8rRy-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read Message" vertex="1">
           <mxGeometry relative="1" x="0.4197" y="-5" as="geometry">
-            <mxPoint x="12" y="-5" as="offset" />
+            <mxPoint x="25" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bTYN3gt1tnpH21ks8rRy-1" parent="1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.github;gradientColor=#DFDEDE" value="Job run every 5 min" vertex="1">
@@ -78,7 +78,7 @@
         </mxCell>
         <mxCell id="bTYN3gt1tnpH21ks8rRy-10" connectable="0" parent="bTYN3gt1tnpH21ks8rRy-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Send Slack message Detail" vertex="1">
           <mxGeometry relative="1" x="0.3483" y="-4" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="117" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVNRZi7rKeXkKMJ3XGcXOFIXGe-Pq5Gw4HfA&amp;amp;s&quot; class=&quot;sFlh5c FyHeAf&quot; alt=&quot;Metabase logo landscape transparent PNG - StickPNG&quot; style=&quot;max-width:300px;&quot; data-ilt=&quot;1779283306787&quot;&gt;" link="&lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVNRZi7rKeXkKMJ3XGcXOFIXGe-Pq5Gw4HfA&amp;amp;s&quot; class=&quot;sFlh5c FyHeAf&quot; alt=&quot;Metabase logo landscape transparent PNG - StickPNG&quot; style=&quot;max-width:300px;&quot; data-ilt=&quot;1779283306787&quot;&gt;" id="bTYN3gt1tnpH21ks8rRy-12">
