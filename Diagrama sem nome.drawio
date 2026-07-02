@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="2">
+<mxfile host="app.diagrams.net" pages="3">
   <diagram name="Página-1" id="GHtwNtnhhPYLFGUEp-5L">
     <mxGraphModel dx="1995" dy="1415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,6 +145,63 @@
         </mxCell>
         <mxCell id="H7UiCInFqajSRluCkakb-14" edge="1" parent="H7UiCInFqajSRluCkakb-18" source="H7UiCInFqajSRluCkakb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.049;entryY=0.548;entryDx=0;entryDy=0;entryPerimeter=0;" target="H7UiCInFqajSRluCkakb-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G4QQJVSk6NtKMstQxPyO" name="Grafana Entra Sync">
+    <mxGraphModel dx="1895" dy="1344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yHCh8KkrpQERnye5Utic-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Entra_Global_Secure_Access.svg;" value="" vertex="1">
+          <mxGeometry height="140" width="140" x="62" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-2" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-3" edge="1" parent="1" source="yHCh8KkrpQERnye5Utic-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.485;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="yHCh8KkrpQERnye5Utic-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-4" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" value="" vertex="1">
+          <mxGeometry height="162.4" width="209.15" x="580.85" y="230.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-11" edge="1" parent="1" source="yHCh8KkrpQERnye5Utic-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yHCh8KkrpQERnye5Utic-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-12" connectable="0" parent="yHCh8KkrpQERnye5Utic-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Collect Groups/people" vertex="1">
+          <mxGeometry relative="1" x="0.1325" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-13" edge="1" parent="1" source="yHCh8KkrpQERnye5Utic-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yHCh8KkrpQERnye5Utic-4" value="Update Groups/People">
+          <mxGeometry relative="1" x="0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="470" y="460" />
+              <mxPoint x="686" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="github runner" vertex="1">
+          <mxGeometry height="370" width="640" x="150" y="540" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;img src=&quot;https://cdn.iconscout.com/icon/premium/png-256-thumb/terraform-icon-svg-download-png-9632800.png&quot; class=&quot;sFlh5c FyHeAf iPVvYb&quot; style=&quot;max-width: 256px; width: 256px; height: 256px; margin: 23px 0px;&quot; alt=&quot;Terraform Icon - Download SVG, PNG for Files &amp;amp; Folders | IconScout&quot;&gt;" link="&lt;img src=&quot;https://cdn.iconscout.com/icon/premium/png-256-thumb/terraform-icon-svg-download-png-9632800.png&quot; class=&quot;sFlh5c FyHeAf iPVvYb&quot; style=&quot;max-width: 256px; width: 256px; height: 256px; margin: 23px 0px;&quot; alt=&quot;Terraform Icon - Download SVG, PNG for Files &amp;amp; Folders | IconScout&quot;&gt;" id="yHCh8KkrpQERnye5Utic-8">
+          <mxCell parent="yHCh8KkrpQERnye5Utic-10" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="280" width="360" x="140" y="45" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yHCh8KkrpQERnye5Utic-9" parent="yHCh8KkrpQERnye5Utic-10" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Picons_Social-2097/github-687.svg" value="" vertex="1">
+          <mxGeometry height="57" width="57" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-15" parent="yHCh8KkrpQERnye5Utic-10" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.clock;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-16" parent="yHCh8KkrpQERnye5Utic-10" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Job execute 2 times at day" vertex="1">
+          <mxGeometry height="30" width="150" x="440" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yHCh8KkrpQERnye5Utic-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Users" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
