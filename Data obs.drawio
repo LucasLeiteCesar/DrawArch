@@ -69,7 +69,7 @@
         <mxCell id="dTZBz3e7Zli8pyMPGlwW-11" edge="1" parent="1" source="dTZBz3e7Zli8pyMPGlwW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" target="dTZBz3e7Zli8pyMPGlwW-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dTZBz3e7Zli8pyMPGlwW-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="pty-data-aws-account" vertex="1">
+        <mxCell id="dTZBz3e7Zli8pyMPGlwW-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;movableLabel=0;" value="pty-data-aws-account" vertex="1">
           <mxGeometry height="710" width="1160" x="120" y="270" as="geometry" />
         </mxCell>
         <mxCell id="dTZBz3e7Zli8pyMPGlwW-3" parent="dTZBz3e7Zli8pyMPGlwW-12" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.jobs;" value="Extract Data" vertex="1">
@@ -155,7 +155,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dTZBz3e7Zli8pyMPGlwW-23" edge="1" parent="1" source="dTZBz3e7Zli8pyMPGlwW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="dTZBz3e7Zli8pyMPGlwW-8">
+        <mxCell id="dTZBz3e7Zli8pyMPGlwW-23" edge="1" parent="1" source="dTZBz3e7Zli8pyMPGlwW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=default;curved=0;startArrow=classic;startFill=1;" target="dTZBz3e7Zli8pyMPGlwW-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="255" y="1050" />
