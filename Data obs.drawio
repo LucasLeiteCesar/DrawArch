@@ -169,10 +169,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dTZBz3e7Zli8pyMPGlwW-18" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" value="" vertex="1">
-          <mxGeometry height="210" width="270.45" x="120" y="1120" as="geometry" />
+          <mxGeometry height="210" width="270.45" x="120" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="MvX20NkIkuKsY5wXHGqU-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;strokeWidth=9;fontSize=24;" value="&lt;div&gt;Question to close on meeting&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Should we ingested the logs in the Grafana? As design all the logs are in the AWS Cloud Watch&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Are we starting on the Grafana or Start using Datadog and move to Grafana?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="340" width="420" x="40" y="1414" as="geometry" />
+          <mxGeometry height="340" width="420" x="40" y="1610" as="geometry" />
         </mxCell>
         <mxCell id="gubJlUc47I3UZ4I5-Txw-1" edge="1" parent="1" source="dTZBz3e7Zli8pyMPGlwW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;dashed=1;" target="dTZBz3e7Zli8pyMPGlwW-18">
           <mxGeometry relative="1" as="geometry">
